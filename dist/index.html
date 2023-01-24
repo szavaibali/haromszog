@@ -1,0 +1,45 @@
+<!--
+File: valami.html
+Author: Szávai Balázs
+Copyright: 2022.01.17, Szávai Balázs
+Group: Szoft I/1/E
+Date: 2022-01-17
+Github: https://github.com/janos/
+Licenc: GNU GPL
+-->
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Háromszög</title>
+<link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Háromszög területszámítás</h1>
+
+        <div class="triagleFrom">
+            <div>
+                <label for="base" class="from-label">Alap</label>
+                <input type="text" class="form-control" id="base">
+            </div>
+
+            <div>
+                <label for="base" class="frosm-control">Magasság</label>
+                <input type="text" class="form-control" id="height">
+            </div>
+
+            <button id="calcButton" class="btn btn-info mt-2">Számít</button>
+
+            <div class="output">
+                <label for="area" class="from-label">Terület</label>
+                <input type="text" class="form-control" id="area">
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
